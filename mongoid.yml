@@ -1,0 +1,6 @@
+test:
+  sessions:
+    default:
+      database: _test
+      hosts:
+        - <%= "#{ENV['DB_1_PORT_27017_TCP_ADDR']}:#{ENV['DB_1_PORT_27017_TCP_PORT']}" %>
